@@ -24,7 +24,7 @@ $totalPage = ceil($totalProducts) / $limit); // total products list page
 $products = array();
 
 
-foreach($data as $d)
+foreach($data as $d) // xmlobject to array
 {
 	 array_push($products, $d);
 }
